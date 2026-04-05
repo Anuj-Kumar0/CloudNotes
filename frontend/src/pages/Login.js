@@ -26,6 +26,7 @@ function Login() {
             onChange={(e) =>
               setForm({ ...form, email: e.target.value })
             }
+            required
           />
 
           <input
@@ -34,6 +35,7 @@ function Login() {
             onChange={(e) =>
               setForm({ ...form, password: e.target.value })
             }
+            required
           />
 
           <button>Login</button>

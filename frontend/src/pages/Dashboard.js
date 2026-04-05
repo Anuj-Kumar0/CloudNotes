@@ -50,7 +50,7 @@ function Dashboard() {
     <div className="container">
       <h1 className="title">CloudNotes</h1>
 
-      <button onClick={logout}>
+      <button onClick={logout} className="logout">
         Logout
       </button>
 
@@ -69,6 +69,7 @@ function Dashboard() {
             onChange={(e) =>
               setForm({ ...form, title: e.target.value })
             }
+            required
           />
 
           <input
@@ -77,6 +78,7 @@ function Dashboard() {
             onChange={(e) =>
               setForm({ ...form, content: e.target.value })
             }
+            required
           />
 
           <button>Add / Update</button>

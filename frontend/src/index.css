@@ -34,7 +34,6 @@ body.light {
   color: black;
 }
 
-/* 🔥 STRIPES */
 body::before {
   content: "";
   position: fixed;
@@ -134,6 +133,11 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+button.logout {
+  display: block;
+  margin-left: auto;
 }
 
 /* NOTE */
