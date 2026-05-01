@@ -133,3 +133,8 @@ npm start
 - JWT tokens are used for authentication
 - Protected routes restrict unauthorized access
 - User-specific data access is enforced
+
+- ## Deployment
+
+- Backend: Deployed on Render.
+- Frontend: Deployed on Vercel.
