@@ -90,8 +90,8 @@ npm install
 Create a `.env` file in the backend folder:
 
 
-MONGO_URI=mongodb+srv://AnujKumar:mongoDB@cluster0.cu4fqng.mongodb.net/?appName=Cluster0
-JWT_SECRET=cloudnotes_secret_key
+MONGO_URI=mongafsd//Aagdf:mongoDBafdsfster0 //fake
+JWT_SECRET=clofdwqruazdafdsgenotes_segercreterat_key //fake
 
 
 Start backend server:
